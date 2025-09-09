@@ -1,0 +1,44 @@
+[
+  {
+    "id": "espresso",
+    "title": "Espresso",
+    "description": "A strong, concentrated coffee made by forcing hot water through finely-ground coffee beans.",
+    "details": "Espresso is the base for many coffee drinks. It is known for its rich flavor and thick consistency.",
+  "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixid=M3w5MTYwfDB8MHxzZWFyY2h8fGVzcHJlc3NvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "latte",
+    "title": "Latte",
+    "description": "A creamy coffee drink made with espresso and steamed milk.",
+    "details": "Lattes are popular for their smooth taste and can be flavored with syrups like vanilla or caramel.",
+  "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixid=M3w5MTYwfDB8MHxzZWFyY2h8fGxhdHRlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "cappuccino",
+    "title": "Cappuccino",
+    "description": "A classic Italian coffee drink with equal parts espresso, steamed milk, and milk foam.",
+    "details": "Cappuccinos are known for their frothy top and balanced flavor.",
+  "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixid=M3w5MTYwfDB8MHxzZWFyY2h8fGNhcHB1Y2Npbm98ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "americano",
+    "title": "Americano",
+    "description": "Espresso diluted with hot water, resulting in a lighter, larger coffee.",
+    "details": "Americanos are similar to regular brewed coffee but have a distinct espresso flavor.",
+  "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixid=M3w5MTYwfDB8MHxzZWFyY2h8fGFtZXJpY2Fub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "mocha",
+    "title": "Mocha",
+    "description": "A chocolate-flavored coffee drink made with espresso, steamed milk, and cocoa.",
+    "details": "Mochas are perfect for those who love the combination of coffee and chocolate.",
+  "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?ixid=M3w5MTYwfDB8MHxzZWFyY2h8fG1vY2hhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "macchiato",
+    "title": "Macchiato",
+    "description": "Espresso topped with a small amount of milk or foam.",
+    "details": "Macchiatos are stronger than lattes and cappuccinos, with a bold espresso flavor.",
+  "image": "https://images.unsplash.com/photo-1527515637460-1a1c7a1c7a1c?ixid=M3w5MTYwfDB8MHxzZWFyY2h8fG1hY2NoaWF0b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=80"
+  }
+]

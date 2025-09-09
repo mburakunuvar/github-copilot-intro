@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Drinks Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Coffee Blog</a>
+    </div>
+  </nav>
+  <main class="container py-5">
+    <div class="row" id="coffee-cards"></div>
+  </main>
+  <footer class="text-muted py-4 bg-light mt-auto">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Coffee Blog. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    async function loadCards() {
+      const res = await fetch('coffeeData.json');
+      const data = await res.json();
+      const container = document.getElementById('coffee-cards');
+      container.innerHTML = data.map(coffee => `
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="${coffee.image}" class="card-img-top coffee-img" alt="${coffee.title} - ${coffee.description}">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">${coffee.title}</h5>
+              <p class="card-text">${coffee.description}</p>
+              <a href="details.html?id=${coffee.id}" class="btn btn-primary mt-auto">Learn More</a>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+    loadCards();
+  </script>
+</body>
+</html>
